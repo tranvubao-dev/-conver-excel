@@ -131,7 +131,7 @@ class _MainTabPageState extends State<MainTabPage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-        length: 4, // Số lượng tab
+        length: 3, // Số lượng tab
         initialIndex: _currentIndex, // Tab mặc định
         child: Scaffold(
           backgroundColor: Colors.transparent,
@@ -157,7 +157,7 @@ class _MainTabPageState extends State<MainTabPage> {
                 Tab(icon: Icon(Icons.shopping_cart), text: 'Template Mua Hàng'),
                 Tab(icon: Icon(Icons.storefront), text: 'Template Bán Hàng'),
                 Tab(icon: Icon(Icons.barcode_reader), text: 'Tạo Mã'),
-                Tab(icon: Icon(Icons.barcode_reader), text: 'Test'),
+                // Tab(icon: Icon(Icons.barcode_reader), text: 'Test'),
               ],
             ),
             backgroundColor: Colors.transparent, // Làm trong suốt AppBar
